@@ -8,7 +8,7 @@ import RegisterPage from './Pages/RegisterPage';
 import axios from 'axios';
 import Account from './Pages/AccountPage';
 
-axios.defaults.baseURL = 'http://localhost:4000';
+axios.defaults.baseURL = 'https://hotelbookingbackend-tzx7.onrender.com';
 axios.defaults.withCredentials=true
 
 function App() {
